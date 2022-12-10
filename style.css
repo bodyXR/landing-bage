@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+body * {
+  transition: all 0.6s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header {
+  font-size: xx-large;
+  background-color: #fcc801;
+}
+header i {
+  padding: 20px;
+  margin-left: 30px;
+  color: white;
+}
+header button {
+  float: right;
+  font-size: 30px;
+  padding-right: 20px;
+  background-color: transparent;
+  border: transparent 2px solid;
+}
+aside {
+  background-color: #fcc801;
+  position: absolute;
+  right: 0;
+  height: 90%;
+  text-align: center;
+  color: white;
+  z-index: 100;
+}
+aside > * {
+  padding: 16px;
+}
+aside > h3:hover {
+  background-color: white;
+  color: #171a2e;
+}
+.about {
+  transform: translateX(1px);
+  /* visibility: hidden; */
+}
+.about h1 {
+  font-size: 40px;
+  margin: 40px;
+  color: #fcc801;
+}
+.about p {
+  margin-left: 40px;
+  font-size: 20px;
+}
+.about img {
+  width: 500px;
+  object-fit: cover;
+}
+.first {
+  position: absolute;
+  top: -40px;
+  right: 280px;
+}
+.second {
+  position: absolute;
+  top: 260px;
+  left: 0px;
+}
+.right {
+  transform: translateX(50px);
+}
+.text-2 {
+  position: absolute;
+  bottom: -350px;
+  left: 590px;
+}
+.my-work {
+  position: absolute;
+  top: 90px;
+  display: flex;
+  transform: translateY(1000px);
+}
+.my-work .work {
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.my-work div:hover img {
+  opacity: 0.4;
+}
+.my-work div:hover a {
+  opacity: 1;
+}
+.my-work img {
+  width: 400px;
+  object-fit: contain;
+}
+.my-work a {
+  position: relative;
+  top: -110px;
+  left: 130px;
+  color: #171a2e;
+  text-decoration: none;
+  font-size: larger;
+  border: #171a2e 2px solid;
+  padding: 10px 16px;
+  opacity: 0;
+}
+.my-work a:hover {
+  background-color: aliceblue;
+}
+.contacts {
+  transform: translateX(1350px);
+}
+.contacts img {
+  position: absolute;
+  right: 110px;
+  width: 600px;
+  top: -100px;
+  z-index: 20;
+}
+.contacts form {
+  position: absolute;
+  top: 80px;
+  right: 57%;
+}
+.contacts input {
+  width: 250px;
+  border-radius: 50px;
+  background-color: #d1cece;
+  border: #d1cece solid 2px;
+  height: 30px;
+}
+.contacts button {
+  width: 505px;
+  border-radius: 50px;
+  background-color: #0da9d6;
+  border: #0da9d6 solid 2px;
+  height: 40px;
+  font-size: large;
+  color: white;
+  margin-top: 10px;
+}
+.contacts h1 {
+  font-size: xxx-large;
+  position: absolute;
+  top: -150px;
+  right: 40%;
+  color: #f67ef5;
+}
+.cards {
+  display: flex;
+}
+.card {
+  width: 135px;
+  height: 150px;
+  background-color: #0da9d6;
+  margin-right: 49px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.card h3 {
+  margin-bottom: 10px;
+}
+.card i {
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skills {
+  margin-left: 40px;
+  transform: translateY(1000px);
+  /* visibility: hidden; */
+}
+.skills > img {
+  width: 500px;
+  position: absolute;
+  top: -160px;
+  object-fit: contain;
+}
+.skill-cards {
+  display: flex;
+  position: absolute;
+  top: -150px;
+  right: 250px;
+}
+.skill-card {
+  width: 200px;
+  height: 220px;
+  /* border: #d1d1d1 3px solid; */
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #00dfc0;
+}
+.skill-card > h2 {
+  padding-top: 30px;
+  font-size: 30px;
+}
+.skill-card > img {
+  width: 100px;
+  object-fit: cover;
+  height: 100px;
+  margin-top: 20px;
+}

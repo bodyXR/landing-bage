@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>abdullah.com</title>
+    <script
+      src="https://kit.fontawesome.com/b1971438e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <i class="fa-solid fa-code"></i>
+
+      <button class="slideBtn">
+        <i class="fa-solid fa-circle-xmark bars"></i>
+      </button>
+    </header>
+    <aside class="slideBar hidden">
+      <h2>sections</h2>
+      <h3 onclick="about()">About</h3>
+      <h3 onclick="myWork()">My Work</h3>
+      <h3 onclick="contacts()">Contacts</h3>
+      <h3 onclick="skills()">My Skills</h3>
+    </aside>
+    <main>
+      <section class="about">
+        <div class="text-1">
+          <h1>hello..</h1>
+          <p>
+            Iam Abdullah I Made This Wepsite It's My Landing Bage!
+            <br />
+            You will Find Contacts Way to Contact With Me.
+            <br />
+            Fell free To check All Bage.
+            <br />
+            Have Fun (:
+          </p>
+        </div>
+        <img src="imgs/code_img1.jpg" alt="" class="first" />
+        <img src="imgs/code_img2.jpg" alt="" class="second" />
+        <div class="text-2">
+          <h1>I Build A Wepsites!</h1>
+          <p>
+            I Build a Wepsites I use Html , Css And Js in Wepsites.
+            <br />
+            I Also Can Use Any Api You Want And Make a Wepsite You Want.
+            <br />
+            If You Want Any Wepsite TO Any Specialty Like a Company , Protofolio
+            , etc...
+            <br />
+            Feel free To Contact Me.
+          </p>
+        </div>
+      </section>
+      <section class="my-work">
+        <section class="first-work">
+          <div class="work">
+            <img src="imgs/pet1.PNG" alt="" />
+            <a href="https://bodyxr.github.io/pet-facts/"
+              >show site<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="work">
+            <img src="imgs/dental.PNG" alt="" />
+            <a href="https://bodyxr.github.io/Dental-Clinic/"
+              >show site<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </section>
+        <!-- <section class="second-work">
+          <div class="work">
+            <img src="imgs/dental.PNG" alt="" />
+            <a href="https://bodyxr.github.io/Dental-Clinic/"
+              >show site<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </section> -->
+        <div class="work"><img src="" alt="" /></div>
+        <div class="work"><img src="" alt="" /></div>
+        <div class="work"><img src="" alt="" /></div>
+      </section>
+      <section class="contacts">
+        <img src="imgs/contactImg.jpg" alt="" />
+        <h1>Contact Me</h1>
+        <form action="contact">
+          <div class="cards">
+            <div class="card">
+              <i class="fa-sharp fa-solid fa-phone"></i> <br />
+              <h3>phone number</h3>
+              <p>+20123456789</p>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-whatsapp"></i> <br />
+              <h3>whatsapp</h3>
+              <p>+20126856789</p>
+            </div>
+            <div class="card">
+              <i class="fa-regular fa-envelope"></i> <br />
+              <h3>Gmail</h3>
+              <p>example.gmail.com</p>
+            </div>
+          </div>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="  Enter your name.."
+          />
+          <input type="email" placeholder="  Enter a valid email address.." />
+          <br />
+          <button type="submit">submit</button>
+        </form>
+      </section>
+      <section class="skills">
+        <img src="imgs/skillsPic.jpg" alt="" />
+        <div class="skill-cards">
+          <div class="first-cards">
+            <div class="skill-card">
+              <h2>Python</h2>
+              <img src="imgs/python.png" alt="" />
+            </div>
+            <div class="skill-card">
+              <h2>Js</h2>
+              <img
+                src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="second-cards">
+            <div class="skill-card">
+              <h2>Html</h2>
+              <img
+                src="https://www.ujudebug.com/wp-content/uploads/2022/07/html-logo-transparent.png"
+                alt=""
+              />
+            </div>
+
+            <div class="skill-card">
+              <h2>Css</h2>
+              <img
+                src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
